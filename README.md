@@ -1,1 +1,1 @@
-# mdb-challenge
+# Simple jQuery To-Do
