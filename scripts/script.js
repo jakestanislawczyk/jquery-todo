@@ -20,4 +20,5 @@ $(document).ready(function() {
     });
 
     $("ol").sortable();
+    $("ol").draggable();
 });
