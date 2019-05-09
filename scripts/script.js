@@ -9,7 +9,7 @@ $(document).ready(function() {
         if (tasknum > 1) {
             $("ul")
                 .last()
-                .detach();
+                .remove();
             tasknum--;
         }
     });
@@ -18,7 +18,4 @@ $(document).ready(function() {
         $("ol").empty();
         tasknum = 1;
     });
-
-    $("ol").sortable();
-    $("ol").draggable();
 });
