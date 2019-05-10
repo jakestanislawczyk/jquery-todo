@@ -100,13 +100,13 @@ ol {
     padding: 10px;
 }
 
-ol ul {
+.task-list ul {
     padding: 5px;
     color: #333333;
     background: #eef9f0;
 }
 
-ol ul:nth-child(even) {
+.task-list ul:nth-child(even) {
     background: #c8ebd0;
 }
 
