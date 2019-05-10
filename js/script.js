@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     var tasknum = 1;
     $("#add").click(function() {
-        $("ol").append("<ul>Task no. " + tasknum + "</ul>");
+        $(".task-list").append("<ul>Task no. " + tasknum + "</ul>");
         tasknum++;
     });
 
