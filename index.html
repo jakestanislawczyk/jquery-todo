@@ -17,15 +17,38 @@
     </head>
     <body>
         <h1>jQuery To-Do Task Lister</h1>
-        <h2>For needs of MDB Job Interview</h2>
-        <span>Press for description</span>
-        <p class="popup-desc"></p>
+        <h2>For the needs of MDB Job Interview</h2>
+        <span id="desc">Press here for description</span>
+        <div class="popup-elem">
+            <div class="popup-desc">
+                <span id="close">x</span>
+                A simple Task Listing app made on jQuery 3.4.0, doing all 4
+                things that recruiter wanted:
+                <ol>
+                    <li>
+                        Clicking "Add" puts on list "Task number #", where # is
+                        the number of task
+                    </li>
+                    <li>
+                        After clicking add again, the number of tasks starts to
+                        count up
+                    </li>
+                    <li>Pressing "Remove" deletes latest added task</li>
+                    <li>Button "Clear", quite obvious, clears list</li>
+                </ol>
+                In another repo, called the "Fun" ver. (clever me hyhyhy), I
+                have upgraded the same list by adding some of QoL (quality of
+                life) elements and making overal using of todo list more
+                intuitive and fun.
+            </div>
+        </div>
 
         <div class="container">
             <button id="add">Add</button>
-            <button id="delete">Delete</button>
+            <button id="remove">Remove</button>
             <button id="clear">Clear</button>
             <ol></ol>
         </div>
+        <footer>©2019 Jakub Stanisławczyk</footer>
     </body>
 </html>
