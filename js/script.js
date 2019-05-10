@@ -23,7 +23,7 @@ $(document).ready(function() {
     });
 
     $("#clear").click(function() {
-        $("ol").empty();
+        $(".task-list").empty();
         tasknum = 1;
     });
 });
